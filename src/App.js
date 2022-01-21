@@ -1,19 +1,7 @@
 import React from "react";
-import Header from "./components/Header";
-import About from "./pages/About";
-// import Projects from "./components/Projects";
-import Footer from "./components/Footer";
+import "./App.css";
+import PortfolioContainer from "./pages/portfolioContainer";
 
-function App() {
-  return (
-    <div className="App">
-      NCS
-      <Header></Header>
-      {/* <Projects></Projects> */}
-      <About></About>
-      <Footer></Footer>
-    </div>
-  );
-}
+const App = () => <PortfolioContainer />;
 
 export default App;
