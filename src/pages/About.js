@@ -4,8 +4,7 @@ export default function About() {
   return (
     <>
       <h1>
-        <p>About</p>
-        <p>Me</p>
+        <p>About Me</p>
       </h1>
       <p className="aboutme">
         I am a Full Stack Web Developer; graduating from a full stack bootcamp
