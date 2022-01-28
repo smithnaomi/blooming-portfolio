@@ -3,7 +3,7 @@ import React from "react";
 export default function Navigation({ currentPage, handlePageChange }) {
   return (
     <>
-      {/* <a
+      <a
         href="#aboutme"
         onClick={() => handlePageChange("About")}
         className={currentPage === "About" ? "nav active" : "nav"}
@@ -15,7 +15,7 @@ export default function Navigation({ currentPage, handlePageChange }) {
         onClick={() => handlePageChange("Projects")}
         className={currentPage === "Projects" ? "nav active" : "nav"}
       >
-        Work
+        Projects
       </a>
       <a
         href="#contactForm"
@@ -30,7 +30,7 @@ export default function Navigation({ currentPage, handlePageChange }) {
         className={currentPage === "Resume" ? "nav active" : "nav"}
       >
         Resume
-      </a> */}
+      </a>
     </>
   );
 }
