@@ -1,26 +1,31 @@
-import React from "react";
-
-export default function Footer() {
-  return (
-    <>
-      <h1>
-        <p>Contact Me</p>
-      </h1>
-      <footer id="contact">
-        <div className="foot">919-492-1159</div>
-        <a
-          href="https://github.com/smithnaomi?tab=repositories"
-          className="foot"
-        >
-          Github
-        </a>
-        <a className="foot" href="mailto:smithnaomi49.com">
-          smithnaomi49@yahoo.com
-        </a>
-        <a className="foot" href="www.linkedin.com/in/naomi-smith-9aaaa9217/">
-          LinkedIn
-        </a>
+import React, { Component } from "react";
+export default class Footer extends Component {
+  render() {
+    let resumeData = this.props.resumeData;
+    return (
+      <footer>
+        <div className="row">
+          <div className="twelve columns">
+            <ul className="social-links">
+              {resumeData.socialLinks &&
+                resumeData.socialLinks.map((item) => {
+                  return (
+                    <li>
+                      <a href={item.url}>
+                        <i className={item.className} />
+                      </a>
+                    </li>
+                  );
+                })}
+            </ul>
+          </div>
+          <div id="go-top">
+            <a className="smoothscroll" title="Back to Top" href="#home">
+              <i className="icon-up-open" />
+            </a>
+          </div>
+        </div>
       </footer>
-    </>
-  );
+    );
+  }
 }
