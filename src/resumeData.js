@@ -57,6 +57,9 @@ let resumeData = {
   skillsDescription: "My skills here",
   skills: [
     {
+      skillname: "Javascript",
+    },
+    {
       skillname: "HTML5",
     },
     {
@@ -64,6 +67,9 @@ let resumeData = {
     },
     {
       skillname: "Reactjs",
+    },
+    {
+      skillname: "Node",
     },
   ],
 };
