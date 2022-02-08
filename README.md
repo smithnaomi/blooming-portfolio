@@ -118,7 +118,7 @@ For any questions about the project, please contact me by either of the followin
 
 or visit my GitHub profile:
 
-<!-- - Application GitHub - [smithnaomi](https://github.com/smithnaomi/Fitness-Tracker) -->
+- Application GitHub - [smithnaomi](https://github.com/smithnaomi/blooming-portfolio)
 
 ## License
 
