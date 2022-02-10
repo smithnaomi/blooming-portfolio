@@ -85,7 +85,7 @@ _Naomi Smith_
 
 ## Overview
 
-<p>  <p>
+<p>React Portfolio about me<p>
 
 ## Build
 
