@@ -70,7 +70,7 @@ let resumeData = {
       skillname: "Reactjs",
     },
     {
-      skillname: "Node",
+      skillname: "MongoDB",
     },
   ],
   portfolio: [
