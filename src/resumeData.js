@@ -79,7 +79,7 @@ let resumeData = {
       skillname: "Express",
     },
     {
-      skillname: "bootstrap",
+      skillname: "Bootstrap",
     },
   ],
   portfolio: [
