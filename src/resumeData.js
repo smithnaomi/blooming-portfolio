@@ -111,16 +111,16 @@ let resumeData = {
       repo: "https://github.com/jparris3213/Narrative_Treasures",
     },
   ],
-  testimonials: [
-    {
-      description: "This is a sample testimonial",
-      name: "Some technical guy",
-    },
-    {
-      description: "This is a sample testimonial",
-      name: "Some technical guy",
-    },
-  ],
+  // testimonials: [
+  //   {
+  //     description: "This is a sample testimonial",
+  //     name: "Some technical guy",
+  //   },
+  //   {
+  //     description: "This is a sample testimonial",
+  //     name: "Some technical guy",
+  //   },
+  // ],
 };
 
 export default resumeData;
